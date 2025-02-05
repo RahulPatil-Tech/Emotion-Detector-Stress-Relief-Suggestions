@@ -1,0 +1,10 @@
+streamlit==1.30.0
+opencv-python==4.8.0.76
+deepface==0.0.79
+numpy==1.23.5
+pandas==2.1.1
+requests==2.31.0
+python-dotenv==1.0.0
+google-generativeai==0.2.2
+Pillow==10.0.1
+matplotlib==3.8.0
