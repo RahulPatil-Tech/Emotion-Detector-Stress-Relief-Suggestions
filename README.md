@@ -28,7 +28,7 @@ This application utilizes **AI-powered emotion detection** and **personalized we
 
 ### 1️⃣ Clone the Repository
 ```bash
- git clone https://github.com/your-username/emotion-detector.git
+ git clone https://github.com/RahulPatil-Tech/Emotion-Detector-Stress-Relief-Suggestions.git
  cd emotion-detector
 ```
 
@@ -36,8 +36,21 @@ This application utilizes **AI-powered emotion detection** and **personalized we
 ```bash
 pip install -r requirements.txt
 ```
+### 3️⃣ Get Google Generative AI API Key
+- Visit `Google AI Studio` and sign in with your Google account.
+- Navigate to the `API Keys` section.
+- Click `Create API Key` and copy the `generated key`.
+- Set up the API key in your environment:
+```bash
+export GOOGLE_GEN_AI_KEY="your-api-key-here"
+```
+- Or, create a .env file and add:
+```ini
+GOOGLE_GEN_AI_KEY=your-api-key-here
+```
 
-### 3️⃣ Run the Application
+### 4️⃣ Run the Application
+
 ```bash
 streamlit run app.py
 ```
